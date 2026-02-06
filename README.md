@@ -75,10 +75,10 @@ To ensure a reproducible and stable verification environment on macOS, the solut
 
 | Metric        | Result    | Notes                                   |
 |---------------|-----------|------------------------------------------|
-| Correctness   | PASS      | Bit-exact match (Max Diff = 0)            |
-| Scalar Cycles | ~61,000   | Baseline performance                     |
-| Vector Cycles | ~55,042   | Emulated vector performance              |
-| QEMU Speedup  | 1.11×     | Emulator artifact (see analysis below)   |
+| Correctness   | PASS      | Bit-exact match (Max Diff = 0)           |
+| Scalar Cycles | ~71,834   | Baseline performance                     |
+| Vector Cycles | ~55,375   | Emulated vector performance              |
+| QEMU Speedup  | 1.30×     | Emulator artifact (see analysis below)   |
 
 ---
 
