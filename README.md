@@ -68,6 +68,9 @@ To ensure a reproducible and stable verification environment on macOS, the solut
 ---
 
 ### Measured Results
+<img width="661" height="480" alt="image" src="https://github.com/user-attachments/assets/a9f522b5-6004-4acd-90f7-5c3598b02e2d" />
+> **Note**
+> Cycle counts vary (0.7x - 1.3x) based on host system load during emulation. Best-case observed performance is reported below.
 
 | Metric        | Result    | Notes                                   |
 |---------------|-----------|------------------------------------------|
@@ -81,8 +84,7 @@ To ensure a reproducible and stable verification environment on macOS, the solut
 ### Performance Analysis
 
 > **Note**  
-> The measured **1.11× speedup** is an artifact of QEMU’s functional emulation (TCG), which serializes vector operations rather than executing them in parallel.
-
+> The measured 1.30x speedup is an artifact of QEMU's functional emulation (TCG), which serializes vector operations rather than executing them in parallel.
 #### Theoretical Hardware Speedup Calculation
 
 On a real standard core with **VLEN = 128**:
